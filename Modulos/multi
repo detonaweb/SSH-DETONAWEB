@@ -24,6 +24,10 @@ BOTFREE () {
 ATTSSL () {
     apt install wget -y; wget --no-check-certificate https://www.dropbox.com/s/v2hvhv8z86zlsqd/ssl.sh; chmod +x ssl.sh; ./ssl.sh
 }
+PWEB() {
+    clear
+    pweb
+}
 MENU () {
     clear
     menu
@@ -35,8 +39,9 @@ clear
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e "\E[41;1;37m            ○ SISTEMA AVANÇADO ○             \E[0m"
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e "\033[1;31m  [\033[1;36m 01 \033[1;31m] \033[1;37m• \033[1;33mSINCRONIZAR QUALQUER PAINEL WEB 
-\033[1;31m  [\033[1;36m 02 \033[1;31m] \033[1;37m• \033[1;33mINSTALAR PAINEL WEB
+echo -e "\033[1;31m  [\033[1;36m 01 \033[1;31m] \033[1;37m• \033[1;33mINSTALAR PAINEL WEB 🌐
+\033[1;31m  [\033[1;36m 02 \033[1;31m] \033[1;37m• \033[1;33mSINCRONIZAR PAINEL WEB ♻️
+\033[1;31m  [\033[1;36m 03 \033[1;31m] \033[1;37m• \033[1;33mABRIR O MENU DO PAINEL WEB
 \033[1;31m  [\033[1;36m 03 \033[1;31m] \033[1;37m• \033[1;33mMENU
 \033[1;31m  [\033[1;36m 00 \033[1;31m] \033[1;37m• \033[1;37mSAIR"
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
@@ -46,15 +51,20 @@ echo -ne "\033[1;32m O QUE DESEJA FAZER \033[1;33m?\033[1;31m?\033[1;37m : "; re
 case "$x" in 
    1 | 01)
    clear
-   SINCRONIZARPAINEL
+   PAINELV20
    exit;
    ;;
     2 | 02)
    clear
-   PAINELV20
+   SINCRONIZARPAINEL
    exit;
    ;;
    3 | 03)
+   clear
+   PWEB
+   exit;
+   ;;
+   4 | 04)
    clear
    MENU
    exit;

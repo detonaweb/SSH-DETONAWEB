@@ -25,7 +25,7 @@ fun_menu() {
 env_msg="╔═══════•⊱✦⊰•═══════╗\n"
         env_msg+="<b>        【M】【E】【N】【U】</b>\n"
         env_msg+="╚═══════•⊱✦⊰•═══════╝\n\n"
-        env_msg+="⚠️ <i>SELECIONE UMA OPCAO ABAIXO !</i>\n\n"
+        env_msg+="️ <i>【↓】【↓】【↓】【↓】【↓】【↓】</i>\n\n"
         ShellBot.sendMessage --chat_id ${message_chat_id[$id]} --text "$env_msg" \
             --reply_markup "$keyboard1" \
             --parse_mode html
@@ -41,7 +41,7 @@ env_msg="╔═══════•⊱✦⊰•═══════╗\n"
 env_msg="╔═══════•⊱✦⊰•═══════╗\n"
         env_msg+="<b>        【M】【E】【N】【U】</b>\n"
         env_msg+="╚═══════•⊱✦⊰•═══════╝\n\n"
-        env_msg+="⚠️ <i>SELECIONE UMA OPCAO ABAIXO !</i>\n\n"
+        env_msg+=" <i>【↓】【↓】【↓】【↓】【↓】【↓】</i>\n\n"
         ShellBot.sendMessage --chat_id ${message_chat_id[$id]} --text "$env_msg" \
             --reply_markup "$keyboard2" \
             --parse_mode html
@@ -51,7 +51,7 @@ env_msg="╔═══════•⊱✦⊰•═══════╗\n"
 env_msg="╔═══════•⊱✦⊰•═══════╗\n"
         env_msg+="<b>        【M】【E】【N】【U】</b>\n"
         env_msg+="╚═══════•⊱✦⊰•═══════╝\n\n"
-        env_msg+="⚠️ <i>SELECIONE UMA OPCAO ABAIXO !</i>\n\n"
+        env_msg+="️ <i>【↓】【↓】【↓】【↓】【↓】【↓】</i>\n\n"
         ShellBot.sendMessage --chat_id ${message_chat_id[$id]} --text "$env_msg" \
             --reply_markup "$keyboard3" \
             --parse_mode html
