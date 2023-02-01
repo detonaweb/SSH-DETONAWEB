@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo -e "\033[1;31mATENCAO!!\033[0m"
+echo -e "\033[1;31m☢️ATENCAO☢️\033[0m"
 echo " "
 echo -e "\033[1;33mEssa senha sera usada para entrar no seu servidor
 \033[0m"
