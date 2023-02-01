@@ -1261,7 +1261,7 @@ restaure_backup() {
 }
 msg_bem_vindo() {
     local msg
-    msg="✌️😃 Ola <b>${message_from_first_name[$id]}</b>\n\nBEM VINDO(a)\n\n"
+    msg="🖐️😊 Ola <b>${message_from_first_name[$id]}</b>\n\nBEM VINDO(a)\n\n"
     msg+="Para acessar o menu\nclick ou execute [ /menu ]\n\n"
     msg+="Para obter informacoes\nclick ou execute [ /ajuda ]\n\n"
     ShellBot.sendMessage --chat_id ${message_chat_id[$id]} \
@@ -1819,16 +1819,19 @@ unset menu3
 menu3=''
 ShellBot.InlineKeyboardButton --button 'menu3' --line 1 --text 'CRIAR USUARIO' --callback_data '_criaruser3'
 ShellBot.InlineKeyboardButton --button 'menu3' --line 1 --text 'CRIAR TESTE' --callback_data '_criarteste3'
+ShellBot.InlineKeyboardButton --button 'menu2' --line 5 --text 'REVENDA' --callback_data '_opcoesrev2'
 ShellBot.InlineKeyboardButton --button 'menu3' --line 2 --text 'REMOVER' --callback_data '_deluser3'
 ShellBot.InlineKeyboardButton --button 'menu3' --line 2 --text 'USUARIOS ONLINE' --callback_data '_monitor3'
 ShellBot.InlineKeyboardButton --button 'menu3' --line 3 --text 'ALTERAR LIMITE' --callback_data '_altlimite3'
 ShellBot.InlineKeyboardButton --button 'menu3' --line 3 --text 'INFO USUARIOS' --callback_data '_verusers3'
 ShellBot.InlineKeyboardButton --button 'menu3' --line 4 --text 'ALTERAR SENHA' --callback_data '_altsenha3'
 ShellBot.InlineKeyboardButton --button 'menu3' --line 4 --text 'EXPIRADOS' --callback_data '_expirados3'
+ShellBot.InlineKeyboardButton --button 'menu2' --line 6 --text 'RELATORIO' --callback_data '_relatorio2'
 ShellBot.InlineKeyboardButton --button 'menu3' --line 5 --text 'ALTERAR DATA' --callback_data '_altdata3'
 ShellBot.InlineKeyboardButton --button 'menu3' --line 5 --text 'AJUDA' --callback_data '_ajuda3'
 ShellBot.regHandleFunction --function fun_adduser --callback_data _criaruser3
 ShellBot.regHandleFunction --function fun_add_teste --callback_data _criarteste3
+ShellBot.regHandleFunction --function fun_menurevenda --callback_data _opcoesrev2
 ShellBot.regHandleFunction --function fun_deluser --callback_data _deluser3
 ShellBot.regHandleFunction --function alterar_senha --callback_data _altsenha3
 ShellBot.regHandleFunction --function alterar_limite --callback_data _altlimite3
@@ -1836,6 +1839,7 @@ ShellBot.regHandleFunction --function alterar_data --callback_data _altdata3
 ShellBot.regHandleFunction --function monitor_ssh --callback_data _monitor3
 ShellBot.regHandleFunction --function ver_users --callback_data _verusers3
 ShellBot.regHandleFunction --function fun_exp_user --callback_data _expirados3
+ShellBot.regHandleFunction --function relatorio_rev --callback_data _relatorio2
 ShellBot.regHandleFunction --function fun_ajuda --callback_data _ajuda3
 unset keyboard3
 keyboard3="$(ShellBot.InlineKeyboardMarkup -b 'menu3')"
