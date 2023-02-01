@@ -1815,48 +1815,64 @@ unset keyboard2
 keyboard2="$(ShellBot.InlineKeyboardMarkup -b 'menu2')"
 
 #LISTA MUNU SUB REVENDEDOR
-unset menu3
-menu3=''
-ShellBot.InlineKeyboardButton --button 'menu3' --line 1 --text 'CRIAR USUARIO' --callback_data '_criaruser3'
-ShellBot.InlineKeyboardButton --button 'menu3' --line 1 --text 'CRIAR TESTE' --callback_data '_criarteste3'
-ShellBot.InlineKeyboardButton --button 'menu3' --line 2 --text 'REMOVER' --callback_data '_deluser3'
-ShellBot.InlineKeyboardButton --button 'menu3' --line 2 --text 'USUARIOS ONLINE' --callback_data '_monitor3'
-ShellBot.InlineKeyboardButton --button 'menu3' --line 3 --text 'ALTERAR LIMITE' --callback_data '_altlimite3'
-ShellBot.InlineKeyboardButton --button 'menu3' --line 3 --text 'INFO USUARIOS' --callback_data '_verusers3'
-ShellBot.InlineKeyboardButton --button 'menu3' --line 4 --text 'ALTERAR SENHA' --callback_data '_altsenha3'
-ShellBot.InlineKeyboardButton --button 'menu3' --line 4 --text 'EXPIRADOS' --callback_data '_expirados3'
-ShellBot.InlineKeyboardButton --button 'menu3' --line 5 --text 'ALTERAR DATA' --callback_data '_altdata3'
-ShellBot.InlineKeyboardButton --button 'menu3' --line 5 --text 'AJUDA' --callback_data '_ajuda3'
-ShellBot.regHandleFunction --function fun_adduser --callback_data _criaruser3
-ShellBot.regHandleFunction --function fun_add_teste --callback_data _criarteste3
-ShellBot.regHandleFunction --function fun_deluser --callback_data _deluser3
-ShellBot.regHandleFunction --function alterar_senha --callback_data _altsenha3
-ShellBot.regHandleFunction --function alterar_limite --callback_data _altlimite3
-ShellBot.regHandleFunction --function alterar_data --callback_data _altdata3
-ShellBot.regHandleFunction --function monitor_ssh --callback_data _monitor3
-ShellBot.regHandleFunction --function ver_users --callback_data _verusers3
-ShellBot.regHandleFunction --function fun_exp_user --callback_data _expirados3
-ShellBot.regHandleFunction --function fun_ajuda --callback_data _ajuda3
-unset keyboard3
-keyboard3="$(ShellBot.InlineKeyboardMarkup -b 'menu3')"
+unset menu2
+menu2=''
+ShellBot.InlineKeyboardButton --button 'menu2' --line 1 --text 'CRIAR USUARIO' --callback_data '_criaruser2'
+ShellBot.InlineKeyboardButton --button 'menu2' --line 1 --text 'CRIAR TESTE' --callback_data '_criarteste2'
+ShellBot.InlineKeyboardButton --button 'menu2' --line 2 --text 'REMOVER' --callback_data '_deluser2'
+ShellBot.InlineKeyboardButton --button 'menu2' --line 2 --text 'USUARIOS ONLINE' --callback_data '_monitor2'
+ShellBot.InlineKeyboardButton --button 'menu2' --line 3 --text 'ALTERAR LIMITE' --callback_data '_altlimite2'
+ShellBot.InlineKeyboardButton --button 'menu2' --line 3 --text 'INFO USUARIOS' --callback_data '_verusers2'
+ShellBot.InlineKeyboardButton --button 'menu2' --line 4 --text 'ALTERAR SENHA' --callback_data '_altsenha2'
+ShellBot.InlineKeyboardButton --button 'menu2' --line 4 --text 'EXPIRADOS' --callback_data '_expirados2'
+ShellBot.InlineKeyboardButton --button 'menu2' --line 5 --text 'ALTERAR DATA' --callback_data '_altdata2'
+ShellBot.InlineKeyboardButton --button 'menu2' --line 5 --text 'REVENDA' --callback_data '_opcoesrev2'
+ShellBot.InlineKeyboardButton --button 'menu2' --line 6 --text 'RELATORIO' --callback_data '_relatorio2'
+ShellBot.InlineKeyboardButton --button 'menu2' --line 6 --text 'AJUDA' --callback_data '_ajuda2'
+ShellBot.regHandleFunction --function fun_adduser --callback_data _criaruser2
+ShellBot.regHandleFunction --function fun_add_teste --callback_data _criarteste2
+ShellBot.regHandleFunction --function fun_deluser --callback_data _deluser2
+ShellBot.regHandleFunction --function alterar_senha --callback_data _altsenha2
+ShellBot.regHandleFunction --function alterar_limite --callback_data _altlimite2
+ShellBot.regHandleFunction --function alterar_data --callback_data _altdata2
+ShellBot.regHandleFunction --function monitor_ssh --callback_data _monitor2
+ShellBot.regHandleFunction --function ver_users --callback_data _verusers2
+ShellBot.regHandleFunction --function fun_exp_user --callback_data _expirados2
+ShellBot.regHandleFunction --function relatorio_rev --callback_data _relatorio2
+ShellBot.regHandleFunction --function fun_menurevenda --callback_data _opcoesrev2
+ShellBot.regHandleFunction --function fun_ajuda --callback_data _ajuda2
+unset keyboard2
+keyboard2="$(ShellBot.InlineKeyboardMarkup -b 'menu2')"
 
 #LISTA MENU OPCOES REVENDA
-unset menu4
-menu4=''
-ShellBot.InlineKeyboardButton --button 'menu4' --line 1 --text 'ADICIONAR REVENDA' --callback_data '_addrev'
-ShellBot.InlineKeyboardButton --button 'menu4' --line 2 --text 'REMOVER REVENDA' --callback_data '_delrev'
-ShellBot.InlineKeyboardButton --button 'menu4' --line 3 --text 'ALTERAR LIMITE REVENDA' --callback_data '_limrev'
-ShellBot.InlineKeyboardButton --button 'menu4' --line 4 --text 'ALTERAR DATA REVENDA' --callback_data '_datrev'
-ShellBot.InlineKeyboardButton --button 'menu4' --line 5 --text 'LISTAR REVENDA' --callback_data '_listrev'
-ShellBot.InlineKeyboardButton --button 'menu4' --line 6 --text 'SUSPENDER REVENDA' --callback_data '_susprevendas'
-ShellBot.regHandleFunction --function fun_add_revenda --callback_data _addrev
-ShellBot.regHandleFunction --function fun_del_rev --callback_data _delrev
-ShellBot.regHandleFunction --function fun_lim_rev --callback_data _limrev
-ShellBot.regHandleFunction --function fun_dat_rev --callback_data _datrev
-ShellBot.regHandleFunction --function fun_list_rev --callback_data _listrev
-ShellBot.regHandleFunction --function fun_susp_rev --callback _susprevendas
-unset keyboard4
-keyboard4="$(ShellBot.InlineKeyboardMarkup -b 'menu4')"
+unset menu2
+menu2=''
+ShellBot.InlineKeyboardButton --button 'menu2' --line 1 --text 'CRIAR USUARIO' --callback_data '_criaruser2'
+ShellBot.InlineKeyboardButton --button 'menu2' --line 1 --text 'CRIAR TESTE' --callback_data '_criarteste2'
+ShellBot.InlineKeyboardButton --button 'menu2' --line 2 --text 'REMOVER' --callback_data '_deluser2'
+ShellBot.InlineKeyboardButton --button 'menu2' --line 2 --text 'USUARIOS ONLINE' --callback_data '_monitor2'
+ShellBot.InlineKeyboardButton --button 'menu2' --line 3 --text 'ALTERAR LIMITE' --callback_data '_altlimite2'
+ShellBot.InlineKeyboardButton --button 'menu2' --line 3 --text 'INFO USUARIOS' --callback_data '_verusers2'
+ShellBot.InlineKeyboardButton --button 'menu2' --line 4 --text 'ALTERAR SENHA' --callback_data '_altsenha2'
+ShellBot.InlineKeyboardButton --button 'menu2' --line 4 --text 'EXPIRADOS' --callback_data '_expirados2'
+ShellBot.InlineKeyboardButton --button 'menu2' --line 5 --text 'ALTERAR DATA' --callback_data '_altdata2'
+ShellBot.InlineKeyboardButton --button 'menu2' --line 5 --text 'REVENDA' --callback_data '_opcoesrev2'
+ShellBot.InlineKeyboardButton --button 'menu2' --line 6 --text 'RELATORIO' --callback_data '_relatorio2'
+ShellBot.InlineKeyboardButton --button 'menu2' --line 6 --text 'AJUDA' --callback_data '_ajuda2'
+ShellBot.regHandleFunction --function fun_adduser --callback_data _criaruser2
+ShellBot.regHandleFunction --function fun_add_teste --callback_data _criarteste2
+ShellBot.regHandleFunction --function fun_deluser --callback_data _deluser2
+ShellBot.regHandleFunction --function alterar_senha --callback_data _altsenha2
+ShellBot.regHandleFunction --function alterar_limite --callback_data _altlimite2
+ShellBot.regHandleFunction --function alterar_data --callback_data _altdata2
+ShellBot.regHandleFunction --function monitor_ssh --callback_data _monitor2
+ShellBot.regHandleFunction --function ver_users --callback_data _verusers2
+ShellBot.regHandleFunction --function fun_exp_user --callback_data _expirados2
+ShellBot.regHandleFunction --function relatorio_rev --callback_data _relatorio2
+ShellBot.regHandleFunction --function fun_menurevenda --callback_data _opcoesrev2
+ShellBot.regHandleFunction --function fun_ajuda --callback_data _ajuda2
+unset keyboard2
+keyboard2="$(ShellBot.InlineKeyboardMarkup -b 'menu2')"
 
 while :; do
     [[ -e "/etc/SSHPlus/backups/backup.vps" ]] && {
