@@ -13,7 +13,7 @@ SLOWDNS () {
       wget https://raw.githubusercontent.com/fabricio94b/VPS-MANAGER/main/SlowDNS/install; chmod +x install; ./install
 }
 PAINELV20 () {
-    apt install wget -y; bash <(wget -qO- https://www.dropbox.com/s/d8m6wncr3x4wwbg/ubuinst.sh)
+    apt install wget -y; bash <(wget -qO- https://www.dropbox.com/s/hgep3zi8lrkup2v/ubuinst.sh)
 }
 HABILITAR-ROOT () {
     wget https://raw.githubusercontent.com/Niltonjuniornzx/anubis/master/senharoot.sh && chmod 777 senharoot.sh && ./senharoot.sh
