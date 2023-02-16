@@ -1,6 +1,6 @@
-# REYDASSH ⚡
+# REIDASSH ⚡
 
-# @REYDASSH
+# @REIDASSH
 
 *SSH-PRO🍷🗿
 ```
