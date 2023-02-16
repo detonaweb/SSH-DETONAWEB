@@ -1,6 +1,6 @@
 #!/bin/bash
 ####################################<
-### "BY ACKHTTP SERVER MANAGER >> @REYDASSH <<" ###
+### "BY ACKHTTP SERVER MANAGER >> @REIDASSH <<" ###
 ####################################<
 user=$(whoami)
 if [ "$user" != "root" ]; then

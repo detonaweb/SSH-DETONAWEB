@@ -1,9 +1,9 @@
 #!/bin/bash
 #====================================================
-#	SCRIPT: LIMITER REYDASSH
-#	DESENVOLVIDO POR:	REYDASSH
-#	CONTATO TELEGRAM:	http://t.me/REYDASSH 
-#	GRUPO TELEGRAM:	http://t.me/grupodoreydassh
+#	SCRIPT: LIMITER REIDASSH
+#	DESENVOLVIDO POR:	REIDASSH
+#	CONTATO TELEGRAM:	http://t.me/REIDASSH 
+#	GRUPO TELEGRAM:	http://t.me/grupodoreidassh
 #====================================================
 clear
 system=$(cat /etc/issue.net)

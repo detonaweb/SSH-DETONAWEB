@@ -1,11 +1,11 @@
 #!/bin/bash
 #===================================================
-#   SCRIPT: BOT REYDASSH
+#   SCRIPT: BOT REIDASSH
 #   DATA ATT: 18 de JuL 2022
-#   DESENVOLVIDO POR: THE_REYDASSH
+#   DESENVOLVIDO POR: THE_REIDASSH
 #   API SHELLBOT: REYSSH
-#   CONTATO TELEGRAM: http://t.me/REYDASSH
-#   GRUPO TELEGRAM: http://t.me/grupodoreydassh
+#   CONTATO TELEGRAM: http://t.me/REIDASSH
+#   GRUPO TELEGRAM: http://t.me/grupodoreidassh
 #===================================================
 [[ ! -d /etc/SSHPlus ]] && exit 0
 [[ ! -d /etc/bot ]] && exit 0
@@ -886,8 +886,8 @@ sobremim() {
     env_msg="╔══════•⊱✦⊰•══════╗\n"
         env_msg+="<b>   【M】【E】【N】【U】</b>\n"
         env_msg+="╚══════•⊱✦⊰•══════╝\n\n"
-    msg+="<b>Desenvolvido por:</b> @REYDASSH\n"
-    msg+="<b>Canal Oficial:</b> @REYDASSH\n\n"
+    msg+="<b>Desenvolvido por:</b> @REIDASSH\n"
+    msg+="<b>Canal Oficial:</b> @REIDASSH\n\n"
     msg+="Fui criado com o propósito de fornecer informações e ferramentas para gestão VPN em servidores 🐧 GNU/Linux 🐧.\n\n"
     msg+="<b>Menu:</b> /menu\n"
     ShellBot.sendMessage --chat_id ${message_chat_id[$id]} \

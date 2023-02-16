@@ -1,8 +1,8 @@
 #!/bin/bash
 #====================================================
-#	SCRIPT: REYDASSH 
-#	DESENVOLVIDO POR:	REYDASSH
-#	GRUPO TELEGRAM:	http://t.me/grupodoreydassh
+#	SCRIPT: REIDASSH 
+#	DESENVOLVIDO POR:	REIDASSH
+#	GRUPO TELEGRAM:	http://t.me/grupodoreidassh
 #====================================================
 clear
 fun_bar() {

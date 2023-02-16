@@ -3,7 +3,7 @@ echo "/root/multi3.sh" > /bin/mko && chmod +x /bin/mko > /dev/null 2>&1
 
 ##SCRIPTS A INSTALAR
 
-##REYDASSH
+##REIDASSH
 
 SINCRONIZARPAINEL () {
       bash <(wget -qO- sshplus.xyz/scripts/utilitarios/syncpainel/inst)

@@ -1,9 +1,9 @@
 #!/bin/bash
 #===================================================
-#	SCRIPT: OTIMIZAR	REYDASSH 
-#	DESENVOLVIDO POR:	REYDASSH
-#	CONTATO TELEGRAM:	http://t.me/REYDASSH
-#	GRUPO TELEGRAM:	http://t.me/grupodoreydassh
+#	SCRIPT: OTIMIZAR	REIDASSH 
+#	DESENVOLVIDO POR:	REIDASSH
+#	CONTATO TELEGRAM:	http://t.me/REIDASSH
+#	GRUPO TELEGRAM:	http://t.me/grupodoreidassh
 #===================================================
 fun_bar() {
 	comando[0]="$1"

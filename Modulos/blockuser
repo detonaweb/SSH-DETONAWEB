@@ -3,7 +3,7 @@ clear
 ###############################################################
 #Programa para bloquear temporariamente e desbloquear contas de usuario"
 ###############################################################
-#REYDASSH
+#REIDASSH
 ###############################################################
 clear
 while [  "$op"  !=  "3" ]

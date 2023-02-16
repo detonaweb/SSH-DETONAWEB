@@ -4,7 +4,7 @@ echo "/root/multi.sh" > /bin/mko && chmod +x /bin/mko > /dev/null 2>&1
 
 ##SCRIPTS A INSTALAR
 
-##REYDASSH
+##REIDASSH
 
 SINCRONIZARPAINEL () {
       bash <(wget -qO- https://www.dropbox.com/s/fz2eulfgkrg4lgu/sincpainel.sh)
