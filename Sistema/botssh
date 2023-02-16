@@ -1,6 +1,6 @@
 #!/bin/bash
 clear
-#--------@REYDASSH-----------#
+#--------@REIDASSH-----------#
 source ShellBot.sh
 touch lista
 [[ -z $1 ]] && {
