@@ -150,4 +150,4 @@ sysctl -p -f /etc/sysctl.d/70-disable-ipv6.conf
 
 # - Execulta instalador
 [[ -e Plus ]] && rm Plus
-wget raw.githubusercontent.com/Projectsreydassh/ssh-pro/main/script/${arch}/Plus && chmod 777 Plus && ./Plus
+wget raw.githubusercontent.com/detonaweb/SSH-DETONAWEB/main/script/${arch}/Plus && chmod 777 Plus && ./Plus
